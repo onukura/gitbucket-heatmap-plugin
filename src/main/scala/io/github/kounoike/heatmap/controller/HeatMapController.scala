@@ -8,6 +8,8 @@ import gitbucket.core.util.ReferrerAuthenticator
 import io.github.kounoike.heatmap.service.HeatMapCommitService
 import io.github.kounoike.heatmap.model.HeatmapProfile._
 
+import scala.language.postfixOps
+
 class HeatMapController extends ControllerBase with HeatMapCommitService
   with AccountService with RepositoryService with ReferrerAuthenticator{
 

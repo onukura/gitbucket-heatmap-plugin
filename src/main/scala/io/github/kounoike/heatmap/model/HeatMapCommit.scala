@@ -1,5 +1,7 @@
 package io.github.kounoike.heatmap.model
 
+import scala.language.postfixOps
+
 trait HeatMapCommitComponent { self: gitbucket.core.model.Profile =>
   import profile.api._
   import self._
